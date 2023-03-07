@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark - Your favourite bookmark app</title>
+
+    <link rel="icon" href="images/favicon-32x32.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lobster&family=Rampart+One&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500&family=Titillium+Web:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script defer src="javascript/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#logo"
+        ><img
+          src="images/logo-bookmark copy.svg"
+          alt="Bookmark Logo"
+          class="logo"
+      /></a>
+
+      <nav class="main--nav">
+        <ul class="main--nav--list">
+          <li><a href="#" class="main--nav--link">Features</a></li>
+          <li><a href="#" class="main--nav--link">Pricing</a></li>
+          <li><a href="#" class="main--nav--link">Contact</a></li>
+          <li><a href="#" class="main--nav--link login--link">Login</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon name="menu" class="icon-mobile-nav"></ion-icon>
+        <ion-icon name="close" class="icon-mobile-nav"></ion-icon>
+      </button>
+    </header>
+
+    <section class="section--hero">
+      <div class="container">
+        <div class="text--box">
+          <h1 class="heading--text">A Simple Bookmark Manager</h1>
+
+          <p class="para">
+            A clean and simple interface to organize your favourite website.
+            Open a new browser tab and see your site load instantly. Try it for
+            free.
+          </p>
+
+          <div class="btn--box">
+            <button class="chrome-btn">Get it on Chrome</button>
+            <button class="firefox-btn">Get it on Firefox</button>
+          </div>
+        </div>
+        <div class="image--box">
+          <!-- <div class="blue-shape"></div> -->
+          <img
+            src="images/illustration-hero.svg"
+            alt="Hero Image"
+            class="hero--image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section-feature">
+      <h2 class="sub--heading">Features</h2>
+      <p class="para">
+        Our aim is to make it quick and easy for you to access your favourite
+        website. Your bookmark sync between your device so you can access them
+        on the go.
+      </p>
+    </section>
+
+    <section class="section--tab">
+      <div class="operations">
+        <div class="operation-tab-container">
+          <button
+            class="btn operation-tab operation-tab--1 operation-tab-active"
+            data-tab="1"
+          >
+            Simple Bookmarking
+          </button>
+          <button class="btn operation-tab operation-tab--2" data-tab="2">
+            Speedy Searching
+          </button>
+          <button class="btn operation-tab operation-tab--3" data-tab="3">
+            Easy Shairing
+          </button>
+        </div>
+
+        <div
+          class="operation-content operation-content--1 operation-content--active"
+        >
+          <div class="operation-img operation-img--1">
+            <img
+              src="images/illustration-features-tab-1.svg"
+              alt="Bookmark image"
+              class="tab-image"
+            />
+          </div>
+          <div class="content-area">
+            <h2 class="operation-header sub--heading">Bookmark in one click</h2>
+            <p class="para">
+              Organize your bookmark however you like. our simple drag-and-frop
+              interface gives you complete control over how you can manage your
+              favourite site
+            </p>
+            <button class="btnt">More info</button>
+          </div>
+        </div>
+
+        <div class="operation-content operation-content--2">
+          <div class="operation-img operation-img--2">
+            <img
+              src="images/illustration-features-tab-2.svg"
+              alt="Search Image"
+              class="tab-image"
+            />
+          </div>
+          <div class="content-area">
+            <h2 class="operation-header sub--heading">Intelligent search</h2>
+            <p class="para">
+              Our powerful search feature will help you find saved sites in no
+              time at all .No need to trawl through all of your bookmark.
+            </p>
+            <button class="btnt">More info</button>
+          </div>
+        </div>
+
+        <div class="operation-content operation-content--3">
+          <div class="operation-img operation-img--3">
+            <img
+              src="images/illustration-features-tab-3.svg"
+              alt="Feedback Image"
+              class="tab-image"
+            />
+          </div>
+          <div class="content-area">
+            <h2 class="operation-header sub--heading">Share your bookmarks</h2>
+            <p class="para">
+              Easily share your bookmark and collections with others. Create a
+              shairable link that you can send at the click of a button.
+            </p>
+            <button class="btnt">More info</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-feature extentions">
+      <h2 class="sub--heading">Download the extention</h2>
+      <p class="para">
+        We've got more browers in the pipeline. Please do let us know if you've
+        got a favourite you'd like us to prioritize.
+      </p>
+    </section>
+
+    <section class="extention-section">
+      <div class="container">
+        <div class="browser-container chrome-container">
+          <img
+            src="images/logo-chrome.svg"
+            alt="Google Chrome"
+            class="browser-img"
+          />
+          <h3 class="title">Add to Chrome</h3>
+          <p class="small-para">Minimum version 62</p>
+          <img src="images/bg-dots.svg" alt="Dot" />
+          <button class="chrome-btn">Add & Install Extention</button>
+        </div>
+        <div class="browser-container firefox-container">
+          <img
+            src="images/logo-firefox.svg"
+            alt="Firefox"
+            class="browser-img"
+          />
+          <h3 class="title">Add to Firefox</h3>
+          <p class="small-para">Minimum version 55</p>
+          <img src="images/bg-dots.svg" alt="Dot" />
+          <button class="chrome-btn">Add & Install Extention</button>
+        </div>
+        <div class="browser-container opera-container">
+          <img src="images/logo-opera.svg" alt="Opera" class="browser-img" />
+          <h3 class="title">Add to Opera</h3>
+          <p class="small-para">Minimum version 46</p>
+          <img src="images/bg-dots.svg" alt="Dot" />
+          <button class="chrome-btn">Add & Install Extention</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-feature faq-section">
+      <h2 class="sub--heading">Frequently Asked Questions</h2>
+      <p class="para">
+        Here are some FAQs. If you have any questions you'd like answered please
+        feel free to email us.
+      </p>
+    </section>
+
+    <div class="faq">
+      <div class="question">
+        <h3>What is Bookmark?</h3>
+        <ion-icon name="chevron-down-outline" class="up-icon"></ion-icon>
+      </div>
+      <div class="answer">
+        <p>
+          A clean and simple interface to organize your favourite website. Open
+          a new browser tab and see your site load instantly. Try it for free.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>How can i request a new browser?</h3>
+        <ion-icon name="chevron-down-outline" class="up-icon"></ion-icon>
+      </div>
+      <div class="answer">
+        <p>
+          A clean and simple interface to organize your favourite website. Open
+          a new browser tab and see your site load instantly. Try it for free.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>Is there a mobile app?</h3>
+        <ion-icon name="chevron-down-outline" class="up-icon"></ion-icon>
+      </div>
+      <div class="answer">
+        <p>
+          A clean and simple interface to organize your favourite website. Open
+          a new browser tab and see your site load instantly. Try it for free.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>What about other Chromium browsers?</h3>
+        <ion-icon name="chevron-down-outline" class="up-icon"></ion-icon>
+      </div>
+      <div class="answer">
+        <p>
+          A clean and simple interface to organize your favourite website. Open
+          a new browser tab and see your site load instantly. Try it for free.
+        </p>
+      </div>
+    </div>
+
+    <div class="more-faq-section">
+      <button class="btnt more-faq">More Info</button>
+    </div>
+
+    <section class="section-cta">
+      <div class="cta-container">
+        <p>35,000+ already joined</p>
+        <h2 class="sub--heading cta-heading">
+          Stay up-to-date with what we're doing
+        </h2>
+
+        <form name="form" class="email-box">
+          <input
+            name="email"
+            placeholder="Enter your email address"
+            class="email"
+          />
+
+          <div class="error-icon">
+            <img src="images/icon-error.svg" alt="error icon" class="icon-1" />
+          </div>
+          <div class="error-meaasge">Woops, make sure that it's an email</div>
+          <button class="submit">Contact Us</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section-footer">
+      <div class="footer-container">
+        <div class="footer-links">
+          <a href="#">
+            <img
+              src="images/logo-bookmark.svg"
+              alt="Bookmark"
+              class="footer-logo"
+            />
+          </a>
+          <ul class="footer-list">
+            <li><a href="#" class="footer--link">features</a></li>
+            <li><a href="#" class="footer--link">pricing</a></li>
+            <li><a href="#" class="footer--link">contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-logos">
+          <img
+            src="images/icon-facebook.svg"
+            alt="Facebook"
+            class="socialmedia-icon"
+          />
+          <img
+            src="images/icon-twitter.svg"
+            alt="Twitter"
+            class="socialmedia-icon"
+          />
+        </div>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
